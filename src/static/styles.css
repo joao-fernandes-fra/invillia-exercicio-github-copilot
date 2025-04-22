@@ -74,6 +74,46 @@ section h3 {
   margin-bottom: 8px;
 }
 
+.activity-card ul {
+  list-style-type: none; /* Remove os bullets */
+  padding-left: 0; /* Remove o recuo padrão */
+}
+
+.activity-card ul li {
+  margin-bottom: 8px; /* Espaçamento entre os itens */
+  padding: 8px; /* Espaçamento interno */
+  border: 1px solid #ddd; /* Borda ao redor do item */
+  border-radius: 4px; /* Bordas arredondadas */
+  background-color: #f9f9f9; /* Fundo claro */
+  color: #333; /* Cor do texto */
+  font-size: 14px; /* Tamanho da fonte */
+}
+
+.participants-list {
+  list-style-type: none; /* Remove os bullets */
+  padding-left: 0; /* Remove o recuo padrão */
+  margin-top: 10px; /* Espaçamento acima da lista */
+}
+
+.participant-item {
+  margin-bottom: 8px; /* Espaçamento entre os itens */
+  padding: 10px; /* Espaçamento interno */
+  border: 1px solid #ddd; /* Borda ao redor do item */
+  border-radius: 5px; /* Bordas arredondadas */
+  background-color: #e3f2fd; /* Fundo azul claro */
+  color: #0d47a1; /* Cor do texto */
+  font-size: 14px; /* Tamanho da fonte */
+  display: flex; /* Layout flexível */
+  align-items: center; /* Alinhamento vertical */
+  gap: 10px; /* Espaçamento entre elementos */
+}
+
+.participant-item::before {
+  content: "👤"; /* Ícone de participante */
+  font-size: 16px; /* Tamanho do ícone */
+  color: #0d47a1; /* Cor do ícone */
+}
+
 .form-group {
   margin-bottom: 15px;
 }
